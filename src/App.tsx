@@ -1,3 +1,4 @@
+import Content from "./components/Content"
 import Navigator from "./components/Navigator"
 
 function App() {
@@ -5,7 +6,8 @@ function App() {
   return (
     <>
       <Navigator />
-      <h1>  Testing Mother Fck</h1>
+      <Content />
+
     </>
   )
 }

@@ -1,15 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer base {
-  body {
-      background-color: #CCC;
-  }
-}
-
-@layer component {
-  .navigator {
-    @apply p-4 bg-slate-800 text-white
-  }
-}
