@@ -3,7 +3,7 @@ function Navigator() {
  
     return (
       <>
-        <nav className="bg-amber-200 ">
+        <nav className="nav_bar p-6 bg-amber-200 ">
             Navigator Bar
         </nav>
       </>
@@ -11,4 +11,3 @@ function Navigator() {
   }
   
   export default Navigator
-  

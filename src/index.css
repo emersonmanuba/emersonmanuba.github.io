@@ -1,4 +1,24 @@
+@import './styles/base/font.css';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    .content {
+        font-family: 'Return of Ganon', sans-serif;
+        font-size: larger;
+    }
+}
+
+@layer components {
+    .header{
+        font-family: 'Amaranth', sans-serif;
+        text-align: right;
+        z-index: -1px;
+    }
+    .nav_bar {
+        font-family: 'The Wild Breath of Zelda', system-ui, sans-serif;
+        font-size: 20px;
+    }
+}
