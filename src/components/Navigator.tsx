@@ -7,7 +7,7 @@ function Navigator() {
           <div className="container mx-auto flex justify-between items-center">
             {/* Logo on the left side */}
             <div className="text-white text-xl font-bold">
-              <a href="/"><img src="./white-hacker-male.svg" alt="male" className="size-10 hover:bg-gray-300 rounded p-1"/></a>
+              <a href="/"><img src="images/white-hacker-male.svg" alt="male" className="size-8 hover:bg-gray-300 rounded p-1"/></a>
             </div>
 
             {/* Buttons on the right side */}
