@@ -3,7 +3,7 @@ function Header() {
  
     return (
       <>
-      <header className="header ">        
+      <header className="relative overscroll-auto">        
       <img src="images/EMER_HEADER.png" alt="header_photo" />
       </header>
       
