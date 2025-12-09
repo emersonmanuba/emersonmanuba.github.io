@@ -1,4 +1,7 @@
+'use client";'
+
 import Link from "next/link";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
   return (
@@ -11,7 +14,8 @@ export default function Navbar() {
         <Link className="hover:text-blue-600 transition" href="/about">About</Link>
         <Link className="hover:text-blue-600 transition" href="/projects">Projects</Link>
         <Link className="hover:text-blue-600 transition" href="/contact">Contact</Link>
-      </div>
+        {/* <ThemeToggle /> */}
+        </div>
     </nav>
   );
 }
